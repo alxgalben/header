@@ -5,7 +5,7 @@ import DatepickerPredare from './components/DatepickerPredare.vue';
 </script>
 
 <template>
-  <div class="all" style="height: 100vh; z-index: 1000000;">
+  <div class="all" style="height: 100vh; z-index: 1000000; position: relative;">
   <div v-if="!showSecondSearchBox" class="card search-box">
     <ul class="list-group list-group-flush">
       <li class="list-group-item">
